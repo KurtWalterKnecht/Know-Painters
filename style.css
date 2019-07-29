@@ -1,0 +1,413 @@
+body {
+    background: darksalmon;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.Title {
+    font-style: italic;
+}
+
+
+.dividingElement {
+
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 24px;
+
+}
+
+
+nav#nav1{ margin-top: 24px; }
+nav#nav1 > a{ background:#B9E1FF; color:#000; padding:10px; text-decoration:none; border-radius:5px; font-family:"Arial Black", Gadget, sans-serif; }
+nav#nav1 > a:hover{ background: #BBEA00; }
+nav#nav1 > a:active{ background: #EEFFA8; }
+
+.navButtons {
+    text-align: center;
+}
+
+/* class for when click and hold down mouse */
+.hold {
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none
+
+}
+
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+    text-align: center;
+}
+
+
+#starryNight {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#nightCafe {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Vincent_Willem_van_Gogh_076.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#wheatField {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg/1280px-Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#irises {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/300px-Irises-Vincent_van_Gogh.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#bandagedEar {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/VanGogh-self-portrait-with_bandaged_ear.jpg/300px-VanGogh-self-portrait-with_bandaged_ear.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+
+
+#starryNightTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#nightCafeTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#wheatFieldTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#bandagedEarTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#irisesTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+/* Picasso paintings */
+
+#guernica {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/350px-PicassoGuernica.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#guernicaTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+#guitarist {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Old_guitarist_chicago.jpg/800px-Old_guitarist_chicago.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#guitaristTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+#tragedy {
+
+    background-image: url('https://uploads1.wikiart.org/images/pablo-picasso/the-tragedy-1903.jpg!Large.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#tragedyTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+#mirrorgirl {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/6/60/GirlBeforeAMirror.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+
+}
+
+#mirrorgirlTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+#weepingwoman {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg/200px-Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#weepingwomanTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+
+
+/* Munch paintings */
+
+
+
+#munchselfportrait {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Edvard_Munch_-_Self-Portrait_with_a_Bottle_of_Wine_-_Google_Art_Project.jpg/660px-Edvard_Munch_-_Self-Portrait_with_a_Bottle_of_Wine_-_Google_Art_Project.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+
+#puberty {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg/800px-Puberty_%281894-95%29_by_Edvard_Munch.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#vampire {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Edvard_Munch_-_Vampire_%281895%29_-_Google_Art_Project.jpg/1024px-Edvard_Munch_-_Vampire_%281895%29_-_Google_Art_Project.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#scream {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/800px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+
+#screamTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#munchselfportraitTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#vampireTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#pubertyTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+#dance {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg/300px-Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg');
+    height: 150px;
+    width: 150px;
+    background-position: 50% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+
+#danceTitle {
+    display: inline-block;
+    height: 160px;
+    width:  160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
